@@ -1,0 +1,30 @@
+class Computer{
+// Iner claas
+class processor{
+
+public void diasplaydetels(){
+
+System.out.println(" The procesor brand is lenvo thinkpad");
+System.out.println("The prosesor speed is 1000 ");
+
+
+
+}
+
+}
+
+ 
+
+
+ public static void main(String[] args){
+  Computer com = new Computer();
+  //com.diasplaydetels();
+  
+Computer.processor pro= com.new processor();
+pro.diasplaydetels();
+
+
+
+
+ }
+ }
